@@ -1,0 +1,102 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body {
+	display: block;
+	color: #edf5e0;
+}
+h1 {
+	font-family: 'B612', sans-serif;
+}
+p {
+	font-family: 'B612', sans-serif;
+	font-style: italic;
+	color: #0a0903;
+	font-weight: bold;
+}
+span {
+	background-color: #edf5e0;
+	padding: 2px;
+	border-radius: 4px;
+}
+label,
+h3 {
+	font-size: 23px;
+	font-family: 'B612', sans-serif;
+	margin-top: 15px;
+	color: #05396b;
+}
+.container {
+	background-color: #e0cf2f;
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin: auto;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 4px solid black;
+	padding: 10px;
+}
+.box-1 {
+	flex: 1;
+	height: 30px;
+	text-align: center;
+}
+.box-2 {
+	flex: 1;
+	height: 100px;
+	/* padding-left:8rem; */
+	text-align: center;
+}
+.box-3 {
+	flex: 1;
+	/* padding-left:8rem; */
+	height: 200px;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 4px;
+}
+
+.btn {
+	height: 30px;
+	width: 90px;
+	background-color: #edf5e0;
+	color: #05396b;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.btn:active {
+	transform: scale(0.95);
+}
+table,
+td,
+tr,
+th {
+	border: 1px solid black;
+	font-size: 18px;
+	background-color: #edf5e0;
+	padding: 5px;
+	color: #05396b;
+}
+tr {
+	width: 300px;
+	font-size: 20px;
+}
+td {
+	padding: 10px;
+}
+
+.er {
+	font-family: 'B612', sans-serif;
+	font-style: italic;
+	color: #ef4444;
+	font-weight: bold;
+	padding: 10px;
+}
